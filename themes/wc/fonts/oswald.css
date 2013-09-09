@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: local('JftCn Bold'), local('JftCn-Bold'), url(JftCn-Bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('JftCn Regular'), local('JftCn-Regular'), url(JftCn-Regular.woff) format('woff');
+}

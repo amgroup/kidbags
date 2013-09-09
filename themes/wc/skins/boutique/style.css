@@ -1,0 +1,157 @@
+/*  
+Skin Name: Boutique
+Version: 1.0
+Description: () -  Skin for Pinshop
+*/
+
+/* links */
+a {
+	color: #0a78a3;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap,
+#footerwrap {
+	background-color: rgb(80, 60, 60);
+	background-image: url(../../uploads/bg/body-bg6.png);
+}
+#footerwrap { border-top: 1px dashed rgb(146, 102, 22); }
+#headerwrap { border-bottom: 1px dashed rgb(146, 102, 22); }
+
+#headerwrap-bottom-area {
+	background-color: transparent;
+	background: url(../../uploads/bg/bottom-area-bg.png) repeat-x bottom left;
+	padding-bottom: 5px;
+}
+#footerwrap-top-area {
+	background: url(../../uploads/bg/top-area-bg.png) repeat-x top left;
+	padding-top: 5px;
+}
+#headerwrap-bottom-area,
+#footerwrap-top-area {
+	background-color: rgb(80, 60, 60);
+	border: 0;
+}
+
+
+/* main nav, product add item, product sale tag, post date wrap, buttons, checkout button and form buttons */
+#main-nav a { border: 3px solid transparent; text-shadow: 0px -1px 0 black; }
+#main-nav a:hover {
+	border-color: #7b3229;
+	box-shadow: 0 1px 0px rgb(124, 80, 80),0px -1px 0px rgb(51, 51, 51),inset 0 1px 1px rgb(163, 94, 94),inset 0px -1px 1px rgb(94, 63, 63);
+}
+
+#main-nav a:hover,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.product .add-item,
+.product .sale-tag,
+.list-post .post-date-wrap,
+button,
+.button,
+.button.checkout,
+a.checkout-button,
+input[type="reset"],
+input[type="submit"] {
+	background-image: url(../../uploads/bg/body-bg17.png);
+	background-color: rgba(82, 0, 255, 0.7);
+}
+
+/* load more and back top buttons */
+#load-more a,
+.back-top a  {
+	background-color: #0a78a3;
+}
+
+
+#site-logo a {
+	color: rgb(221, 169, 144);
+	text-shadow: 0px -1px 0 rgb(20, 20, 20),0px 1px 0 rgb(197, 197, 197);
+}
+
+#site-description {
+	color: orange;
+	text-shadow: 0px -1px 0 rgb(20, 20, 20),0px 1px 1px rgb(189, 183, 183);
+}
+
+.sale-tag {
+    height: 39px;
+    width: 68px;
+    top: -20px;
+    left: -20px;
+    border: 0px solid transparent !important;
+    background-image: url(../../images/sale3.png) !important;;
+    border-radius: 0px;
+    background-color: transparent !important;
+    box-shadow: inherit !important;
+    color: transparent !important;
+    font-size: 1px !important;
+}
+
+#cart-tag {
+    background: url(../../images/cart-tag3.png) no-repeat left bottom !important;
+}
+
+ tr.cart-discount-total {
+    color: #228822;
+}
+
+tr.total {
+    color: #222222;
+}
+
+button, .button  {
+    background-image: none;
+    background-color: rgb(235, 30, 153);
+    height: 28px;
+}
+
+form .search.reset {
+    margin-left: -23px;
+    background-image: none;
+    background-color: #dddddd;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    font-size: 22px;
+    line-height: 18px;
+    vertical-align: baseline;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+form .search.reset:hover {
+    background-color: #cccccc;
+}
+
+.page-title .search.result.header { display: none; }
+
+#content.no-sidebar { width: inherit; }
+
+input.checkout-button.button.alt,
+#place_order {
+    background-color: rgb(235, 30, 153);
+}
+
+table.shop_attributes.ui-accordion-content.ui-widget-content { width: 100%;}
+table.shop_attributes.ui-accordion-content.ui-widget-content tr th{ text-align: right; border-right: 1px dotted #dddddd; width: 30%; }
+table.shop_attributes.ui-accordion-content.ui-widget-content tr td{ text-align: left; vertical-align: middle;}
+table.shop_attributes.ui-accordion-content.ui-widget-content tr td * { margin: 0;}
+
+.site.logo { height:150px; width: 190px; background: url(../../images/kidbags_150x300.png) no-repeat;  background-position: right 0px bottom -150px; }
+.sile.logo a .holder { height:150px; width: 150px; }
+@media (max-width: 980px) {
+    .site.logo { background-position: right 0px bottom 1px; }
+}
+
+.site.description a {font-size: 50px; color: white; font-weight: normal; text-shadow: 0 -2px 0 black,-1px -2px 0 rgba(0, 0, 0, 0.81), 1px -2px 0 rgba(0, 0, 0, 0.81); color: rgba(255, 165, 0, 0.87); }
+.site.description {margin:0;}
+.site.top.sub.description {margin-bottom: 13px; color: #4AFFF8; font-family: Arial; font-weight: normal; font-size: 14px;}
+.site.bottom.sub.description {margin-bottom: 13px; color: #06FC06; font-family: Arial; font-weight: normal; font-size: 14px;}
+
+.site.phone { color: white; font-weight: normal; font-family: Oswald; font-size: 24px;}
+.site.email { color: white; font-weight: normal; font-family: Oswald; }
+
+.related.products li.product.first { margin-left:20px; }
+.related.products li.product.last { margin-right:0; }
